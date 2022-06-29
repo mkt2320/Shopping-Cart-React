@@ -55,6 +55,10 @@ const ContextCart = () => {
           <button className="clear-cart" onClick={clearCart}>
             Clear Cart
           </button>
+              
+          <button  className="checkout" onClick={() => alert('Make payment!')}>
+                Checkout
+          </button>
         </div>
         
         </div>

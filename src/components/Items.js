@@ -13,7 +13,7 @@ const Items = ({ id, description, title, img, price, quantity }) => {
 
         <div className="title">
           <h2>{title}</h2>
-          <p>Price: <span>{price}₹</span></p>
+          <p>Price: <span>{price} ₹/Kg</span></p>
           <p>Description: <span>{description}</span></p>
         </div>
 

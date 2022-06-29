@@ -13,6 +13,7 @@ const initialState = {
 };
 
 const Cart = () => {
+
   // const [item, setItem] = useState(products);
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -57,6 +58,8 @@ const Cart = () => {
       <ContextCart />
     </CartContext.Provider>
   );
+
+
 };
 
 export default Cart;
